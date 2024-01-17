@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    background-image: url(./images/eduardo-ramos-OTkjNdWvAdo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8);
+    background-position-x: center;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    position:absolute;
+    top: -30px;
+    left: -30px;
+    filter: blur(10px);
+    
+}
+.loading-text{
+    color: rgb(249, 249, 247);
+    font-size: 5rem;
+    font-family: 'Roboto Mono', monospace;
+}
